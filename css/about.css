@@ -1,0 +1,51 @@
+#about{
+	color:#97B1D2;
+}
+
+#submit-button{
+	color:black;
+	margin-left:1.3em;
+	margin-top:1em;
+}
+
+
+iframe{
+	width: 70%;
+	height:350px;
+}
+
+article p small a{
+	color:#C1B6B0;
+}
+
+article p{
+	font-size:1em;
+	color:black;
+	text-align:left;
+}
+
+article h1{
+	font-size:1em;
+	font-weight: bold;
+	color:#C1B6B0;
+}
+
+article p a{
+	color:black;
+}
+
+article p a:hover{
+	color:#3C6CAC;
+}
+
+@media(max-width:768px){
+	iframe{
+		width:80%;
+	}
+}
+
+@media(max-width:480px){
+	iframe{
+		width:90%;
+	}
+}

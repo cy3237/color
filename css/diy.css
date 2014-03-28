@@ -1,0 +1,18 @@
+#diy{
+	color:#97B1D2;;
+}
+table{
+	border:1px;
+	width: 100%
+}
+
+td{
+	width:48%;
+}
+
+.square{
+	border:1px solid #000000;
+	width:100px;
+	height:100px;
+	background:white;
+}

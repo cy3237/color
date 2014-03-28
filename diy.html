@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>DIY Studio | Art of Color</title>
+		<link rel="stylesheet" href="css/master.css">
+		<link rel="stylesheet" href="css/diy.css">
+		<link rel="stylesheet" href="css/buttons.css">
+		<script type="application/javascript" src="js/jscolor.js"></script>
+		<script type="application/javascript">
+			function draw() {
+				var s1 = document.getElementById("square1");
+				var s2 = document.getElementById("square2");
+				var s3 = document.getElementById("square3");
+				var c1 = document.forms["myForm"]["c1"].value;
+				var c2 = document.forms["myForm"]["c2"].value;
+				var c3 = document.forms["myForm"]["c3"].value;
+				if (c1 != null) {
+					s1.style.background = c1;
+				}
+				if (c2 != null) {
+					s2.style.background = c2;
+				}
+				if (c3 != null) {
+					s3.style.background = c3;
+				}
+			}
+
+		</script>
+	</head>
+	<body >
+		<div id="main">
+			<header>
+				<div id="bar">
+					<img id="logo"src="logo.jpg" alt="logo">
+					<img id="logo_small" src="logo_small.jpg" alt="logo">
+					<nav>
+						<ul>
+							<li>
+								<a class="navLink" href="index.html">Home</a>
+							</li>
+							<li>
+								<a class="navLink" href="combos.html">ColorCombos</a>
+							</li>
+							<li>
+								<a class="navLink" href="palettes.html">Palettes</a>
+							</li>
+							<li>
+								<a class="navLink" href="brush.html">BrushStroke</a>
+							</li>
+							<li>
+								<a class="navLink" id="diy" href="#">DIYSudio</a>
+							</li>
+							<li>
+								<a class="navLink" href="about.html">About</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<div id="content">
+				<div class="pageTitle">
+					<p>
+						DIY Studio
+					</p>
+				</div>
+				<div class="instruction">
+					<p>
+						Please type in the web hex color code or valid color tags to preview.
+					</p>
+				</div>
+				<section>
+					<table>
+						<tr>
+							<td>
+							<form id="myForm" action="#">
+								<p>
+									1st:
+									<input type="text" id="c1">
+								</p>
+								<p>
+									2nd:
+									<input type="text" id="c2">
+								</p>
+								<p>
+									3rd:
+									<input type="text" id="c3">
+								</p>
+								<p>
+									<!--The button here uses Pure:http://purecss.io/. The button used here targets to have a better looking which is more closed to the style of this website than the default one. As a website related to art, a more flat and graphical button is prefered. -->
+									<a class="pure-button" href="#" onclick="draw()">submit</a>
+								</p>
+							</form></td>
+							<td><div id="square1" class="square" ></div><div id="square2" class="square"></div><div id="square3" class="square"></div></td>
+						</tr>
+					</table>
+					<!--Here uses JSColor:http://jscolor.com/. The use of JSColor helps to achieve the function of helping the users pick the color code. -->
+					<p>
+						 Click here to get the color code:
+<input class="color" value="66ff00" autocomplete="off" style="background-image: none; background-color: rgb(61, 126, 212); color: rgb(255, 255, 255);">
+					</p>
+				</section>
+			</div>
+		</div>
+		<footer>
+			<div>
+				<p>
+					&copy; website designed by <a href="about.html">Yang CHENG (Sara)</a>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

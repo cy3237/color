@@ -1,0 +1,89 @@
+#brush {
+	color: #97B1D2;;
+}
+
+figure {
+	background-color: white;
+	float: left;
+	width: 600px;
+	margin: auto;
+	overflow: hidden;
+	margin-left: 10%;
+	margin-bottom: 2em;
+	border-color: #F4F0E5;
+	border-width: 0.5em;
+	border-style: dotted;
+	display: block;
+}
+
+figure img {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: auto;
+}
+
+#galleria, #gBrush {
+	display: none;
+}
+
+@media (max-width: 1024px) {
+	figure {
+		width: 400px;
+		margin-left: 5%;
+	}
+
+	figure img {
+		width: 398px;
+	}
+}
+
+@media (max-width: 650px) {
+	figure {
+		margin-left: 10%;
+		width: 200px;
+		display: none;
+	}
+	#tabsection{
+		display:none;
+	}
+	#tab1{
+		display:none;
+	}
+	#tab2{
+		display: none;
+	}
+	#tab3{
+		display: none;
+	}
+	#tab4{
+		display:none;
+	}
+	#galleria img {
+		width: 250px;
+		height: 200px;
+	}
+
+	#galleria {
+		display: block;
+		width: 300px;
+		height: 400px;
+		background: white;
+		border-style: dotted;
+		border-color: #F4F0E5;
+		border-width: 0.5em;
+	}
+
+	#gBrush {
+		display: block;
+	}
+	#gBrush img {
+		width: 250px;
+	}
+}
+@media (max-width: 320px) {
+	figure {
+		margin-left: 0;
+	}
+}
+

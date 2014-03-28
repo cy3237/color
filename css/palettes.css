@@ -1,0 +1,70 @@
+#palettes{
+	color:#97B1D2;
+}
+
+.panel-default{
+	float:left;
+	width:380px;
+	height:500px;
+	margin:auto;
+	overflow:hidden;
+	display:inline;
+	margin-bottom: 1em;
+	margin-right:1em;
+	padding-left:0;
+}
+
+.panel-heading{
+	border-bottom-color:#C1B6B0;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+}
+
+.panel-title{
+	
+	font-family:"Comic Sans MS";
+	font-size:1em;
+	font-weight:bold;
+	color:#C1B6B0;
+}
+
+.panel-img{
+	margin-top:1em;
+	position:relative;
+	float:left;
+	border-color:#F4F0E5;
+	border-width:0.5em;
+	border-style: outset;
+	overflow:hidden;
+}
+
+@media(max-width:1220px){
+	.panel-default{
+		padding-left:30%;
+	}
+}
+
+@media(max-width:1024px){
+	.panel-default{
+		padding-left:15%;
+	}
+}
+
+@media(max-width:768px){
+	.panel-default{
+		padding-left:10%;
+		width:240px;
+		height:350px;
+	}
+	
+	.panel-img{
+		width:270px;
+		height:280px;
+	}
+}
+
+@media(max-width:320px){
+	.panel-default{
+		padding-left:0;
+	}
+}

@@ -1,0 +1,24 @@
+#combos{
+	color:#97B1D2;;
+}
+
+table{
+	border:0px;
+	width: 100%
+}
+
+td{
+	border:0px;
+	width:48%;
+	overflow:hidden;
+	text-align:center;
+}
+
+tr{
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+
+

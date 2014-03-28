@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Brush Stroke | Art of Color</title>
+		<link rel="stylesheet" href="css/brush.css">
+		<link rel="stylesheet" href="css/master.css">
+		<link rel="stylesheet" href="css/kube.css">
+		<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="js/galleria-1.2.9.js"></script>
+		<script>
+			Galleria.loadTheme('js/galleria.classic.min.js');
+			Galleria.run('#galleria');
+			if (Galleria) {
+				$("body").text('Galleria works');
+			}
+		</script>
+		<script type="text/javascript" src="js/kube.tabs.js"></script>
+
+	</head>
+	<body>
+		<div id="main">
+			<header>
+				<div id="bar">
+					<img id="logo"src="logo.jpg" alt="logo">
+					<img id="logo_small" src="logo_small.jpg" alt="logo">
+					<nav>
+						<ul>
+							<li>
+								<a class="navLink" href="index.html">Home</a>
+							</li>
+							<li>
+								<a class="navLink" href="combos.html">ColorCombos</a>
+							</li>
+							<li>
+								<a class="navLink" href="palettes.html">Palettes</a>
+							</li>
+							<li>
+								<a class="navLink" id="brush" href="#">BrushStroke</a>
+							</li>
+							<li>
+								<a class="navLink" href="diy.html">DIYSudio</a>
+							</li>
+							<li>
+								<a class="navLink" href="about.html">About</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<div id="content">
+				<div class="pageTitle">
+					<p>
+						Brush Stroke
+					</p>
+				</div>
+				<section>
+					<!-- The tabs here uses Kube: http://imperavi.com/kube/. The tabs are used to provide better experience in that it could display the big picture in a fixed area-->
+					<div id="tabsection">
+					<nav class="nav-tabs" data-toggle="tabs" data-height="equal">
+						<ul>
+							<li>
+								<a href="#tab1" class="active">Item 1</a>
+							</li>
+							<li>
+								<a href="#tab2">Item 2</a>
+							</li>
+							<li>
+								<a href="#tab3" >Item 3</a>
+							</li>
+							<li>
+								<a href="#tab4">Item 4</a>
+							</li>
+						</ul>
+					</nav>
+					<div id="tab1">
+						<figure>
+						<img src="img/brush/b01.jpg" alt="Confetti">
+						<img src="img/brush/b01-1.jpg" alt="Confetti Brush Stroke">
+					</figure>
+					</div>
+					<div id="tab2">
+						<figure>
+						<img src="img/brush/b02.png" alt="Color Fall">
+						<img src="img/brush/b02-1.jpg" alt="Color Fall">
+					</figure>
+					</div>
+					<div id="tab3">
+						<figure>
+						<img src="img/brush/b03.jpg" alt="Collaged">
+						<img src="img/brush/b03-1.jpg" alt="Collaged">
+					</figure>
+					</div>
+					<div id="tab4">
+						<figure>
+						<img src="img/brush/b04.jpg" alt="Building">
+						<img src="img/brush/b04-1.jpg" alt="Building">
+					</figure>
+					</div>
+					</div>
+					
+					
+					
+					
+					<!--The gallery here uses galeeria:http://galleria.io/. Here I want to display the pictures in a gallery mode when it comes to a smaller screen -->
+					<div id="galleria">
+						<img src="img/brush/b01.jpg" alt="Confetti">
+						<img src="img/brush/b02.png" alt="Color Fall">
+						<img src="img/brush/b03.jpg" alt="Collaged">
+						<img src="img/brush/b04.jpg" alt="Building">
+					</div>
+					<p> </p>
+					<div id="gBrush">
+						<img src="img/brush/b01-1.jpg" alt="Confetti Brush Stroke">
+						<img src="img/brush/b02-1.jpg" alt="Color Fall">
+						<img src="img/brush/b03-1.jpg" alt="Collaged">
+						<img src="img/brush/b04-1.jpg" alt="Building">
+					</div>
+				</section>
+				<p>
+					&copy; The pictures displayed in this page originate from <a href="http://blog.design-seeds.com">Design Seeds® Blog</a>
+				</p>
+			</div>
+		</div>
+		<footer>
+			<div>
+				<p>
+					&copy; website designed by <a href="about.html">Yang CHENG (Sara)</a>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
